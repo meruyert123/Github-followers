@@ -8,11 +8,13 @@
 import UIKit
 
 class FavouritesListVC: UIViewController {
+    
+    var username: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let mySubview = UIView()
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBackground
+    
         
 
     }
