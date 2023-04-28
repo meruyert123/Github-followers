@@ -29,12 +29,21 @@ class FollowerCell: UICollectionViewCell {
     private func configure() {
         addSubview(avatarImageView)
         addSubview(usernameLabel)
-        let padding: CGFloat = 8
+        let width = UIScreen.main.bounds.size.width
+        let padding: CGFloat = 12
+        let minimumItemSpacing: CGFloat = 10
+        let availableWidth = width - (2*padding) - (2*minimumItemSpacing) - (6*padding)
+        let itemWidth = availableWidth / 3
+//        usernameLabel.backgroundColor = .red
+//        contentView.backgroundColor = UIColor(red: 0, green: 1.0, blue: 0, alpha: 0.5)
+
+        
         
         NSLayoutConstraint.activate([
             avatarImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: padding),
             avatarImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding),
             avatarImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -padding),
+            avatarImageView.widthAnchor.constraint(equalToConstant: itemWidth),
             avatarImageView.heightAnchor.constraint(equalTo: avatarImageView.widthAnchor),
             
             usernameLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: 12),
@@ -42,9 +51,8 @@ class FollowerCell: UICollectionViewCell {
             usernameLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -padding),
             usernameLabel.heightAnchor.constraint(equalToConstant: 20)
         ])
-        
     }
     
-    
+    // SAllen0400
     
 }
