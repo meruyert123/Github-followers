@@ -82,9 +82,9 @@
 		640BB7C029F669E200B9CE69 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				64FC080A29F5C8BB0070D585 /* FollowerListVC.swift */,
 				64C7301F29F4180E007EFB0B /* FavouritesListVC.swift */,
 				64C7301D29F41730007EFB0B /* SearchVC.swift */,
-				64FC080A29F5C8BB0070D585 /* FollowerListVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
