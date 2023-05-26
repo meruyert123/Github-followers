@@ -1,10 +1,3 @@
-//
-//  UIHelper.swift
-//  Github followers
-//
-//  Created by Meruert on 29.04.2023.
-//
-
 import UIKit
 
 struct UIHelper {

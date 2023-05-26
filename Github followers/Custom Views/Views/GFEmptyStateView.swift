@@ -1,10 +1,3 @@
-//
-//  GFEmptyStateView.swift
-//  Github followers
-//
-//  Created by Meruert on 30.04.2023.
-//
-
 import UIKit
 
 class GFEmptyStateView: UIView {

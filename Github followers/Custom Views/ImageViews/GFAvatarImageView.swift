@@ -1,10 +1,3 @@
-//
-//  GFAvatarImageView.swift
-//  Github followers
-//
-//  Created by Meruert on 28.04.2023.
-//
-
 import UIKit
 
 class GFAvatarImageView: UIImageView {

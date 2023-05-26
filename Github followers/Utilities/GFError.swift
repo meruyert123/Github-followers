@@ -1,10 +1,3 @@
-//
-//  ErrorMessage.swift
-//  Github followers
-//
-//  Created by Meruert on 27.04.2023.
-//
-
 import Foundation
 
 enum GFError: String, Error {

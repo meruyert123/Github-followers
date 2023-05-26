@@ -1,21 +1,15 @@
-//
-//  User.swift
-//  Github followers
-//
-//  Created by Meruert on 26.04.2023.
-//
-
 import Foundation
 
 struct User: Codable {
-    var login: String
-    var avatarUrl: String
+    let login: String
+    let avatarUrl: String
     var name: String?
     var location: String?
     var bio: String?
-    var publicRepos: Int
-    var publicGists: Int
-    var following: Int
-    var followers: Int
-    var createdAt: String
+    let publicRepos: Int
+    let publicGists: Int
+    let htmlUrl: String
+    let following: Int
+    let followers: Int
+    let createdAt: String
 }
