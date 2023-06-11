@@ -52,7 +52,7 @@ class GFItemInfoVC: UIViewController {
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
-        let padding: CGFloat = 15
+        let padding: CGFloat = 20
         
         NSLayoutConstraint.activate([
             stackView.topAnchor.constraint(equalTo: view.topAnchor, constant: padding),
