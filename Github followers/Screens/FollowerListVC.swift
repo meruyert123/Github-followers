@@ -1,6 +1,6 @@
 import UIKit
 
-protocol FollowerListVCDelegate: class {
+protocol FollowerListVCDelegate: AnyObject {
     func didRequestFollower(for username: String)
 }
 
